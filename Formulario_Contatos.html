@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Contatos</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            Contato
+        </legend>
+        <form action="">
+            <div>
+                <label>
+                    &#x1f464;
+                    Nome:
+                    <input type="text" size="60">
+                </label>
+            </div>
+            <br>
+            <div>
+                <label>
+                    &#9993;
+                    E-mail:
+                    <input type="text" size="60">
+                </label>
+            </div>
+            <br>
+            <div>
+                    &#10004;
+                    Já é cliente?
+                    <label><input type="radio" name="cliente">Sim</label>
+                    <label><input type="radio" name="cliente">Não</label>
+            </div>
+            <br>
+            <div>
+                <label>
+                    &#127970;
+                    Departamento:
+                    <select name="" id="">
+                        <option value="" selected disabled>Selecione</option>
+                        <option value="v">Vendas</option>
+                        <option value="s">Suporte</option>
+                        <option value="a">Administrativo</option>
+                        <option value="o">Ouvidoria</option>
+                    </select>
+                </label>
+            </div>
+            <br>
+            <div>
+                <label>
+                    &#129300;
+                    Assunto:
+                    <input type="text" size="60" list="options">
+                    <datalist id="options">
+                        <option>Quero Comprar um plano</option>
+                        <option>Não consigo pagar o boleto</option>
+                        <option>Minha internet não funciona</option>
+                        <option>Que dia será a instalação da minha internet</option>
+                    </datalist>
+                </label>
+            </div>
+            <br>
+            <div>
+                <label>
+                    &#x1f4ac;
+                    Sua mensagem
+                    <br>
+                    <textarea name="" id="" cols="62" rows="10" placeholder="Sua mensagem aqui"></textarea>
+                </label>
+            </div>
+            <div>
+                <details>
+                    <summary>Veja os termos do serviço</summary>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus delectus dolore nesciunt omnis, optio molestias eius aliquam quia quibusdam pariatur odio officia vero corporis in, provident consectetur et ut facilis.</p>
+                </details>
+            </div>
+            <div>
+                <label>
+                    &#x1f4c4;
+                    <input type="checkbox" required >Aceito os termos do serviço
+                </label>
+            </div>
+            <hr>
+            <button type="reset">&#x274c;Cancelar</button>
+            <button type="submit">&#x1f4be;Salvar</button>
+        </form>
+    </fieldset>
+</body>
+</html>
